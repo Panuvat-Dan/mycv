@@ -1,0 +1,23 @@
+body {
+  background-color: powderblue;
+}
+
+hr {
+  boarder-style: none;
+  boarder-top-style: dotted;
+  boarder-color: grey;
+  boarder-width: 5px;
+  width: 30%;
+}
+
+h1 {
+    color:#334257;
+}
+
+h3 {
+    color:#334257;
+}
+
+h4 {
+    color:#334257;
+}
