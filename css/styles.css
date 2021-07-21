@@ -1,23 +1,155 @@
 body {
-  background-color: powderblue;
+  margin: 0;
+  padding: 0
+  fonnt-family: sans-serif;
 }
-
-hr {
-  boarder-style: none;
-  boarder-top-style: dotted;
-  boarder-color: grey;
-  boarder-width: 5px;
-  width: 30%;
+#header
+{
+  height:50vh;
+  background: url(background2.jpg);
+  background-position: lower center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
-h1 {
-    color:#334257;
+.user-box
+{
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
-
-h3 {
-    color:#334257;
+.user-box h1 
+{
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  margin: 10px;
 }
-
-h4 {
-    color:#334257;
+.user-box p
+{
+  color: rgb(0,0,0);
+  font-weight:bold;
+}
+.nav-bar 
+{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.navbar 
+{
+  background-color: #000;
+}
+.navbar-brand img
+{
+  height: 50px;
+  weight: 50px;
+}
+.navbar-nav
+{
+  float: right;
+  text-align: right;
+}
+.capstone
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9
+}
+.capstone h3
+{
+  margin-bottom: 50px;
+}
+.timeline
+{
+  list-style-type:none;
+  position: relative;
+}
+.timeline:before
+{
+  content: '';
+  background-color: #555;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 1;
+}
+.timeline li
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: #fff;
+}
+.timeline li h4
+{
+  background-color: #000;
+  padding: 5px 0 5px 20px;
+  color: #fff;
+  font-size: 15px;
+}
+.timeline li:before
+{
+  content: '';
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius:50%;
+  border: 3px solid #000;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+.contact
+{
+  padding-top:50px;
+  background: url(contact.jpg);
+  background-position: lower center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contact .row
+{
+  padding: 30px 0;
+  font-size: 22px;
+}
+.contact .col-md-4 .fa
+{
+  padding: 10px;
+  font-size: 40px;
+}
+.contact .btn
+{
+  padding: 10px;
+  font-size: 40px;
+}
+.social-icons
+{
+top: 50%;
+transform:translateY(-50%); 
+position: sticky;
+z-index: 1;
+width: 80px;
+}
+.social-icons ul
+{
+  padding:initial;
+}
+.social-icons ul li
+{
+  height:40px;
+  width:40px;
+  list-style-type: 12px;
+  padding-left: 12px;
+  padding-right: 6px;
+  color: #fff;
+  background-color:#000;
+}
+.social-icons img:hover
+{
+  padding-left: 30px;
+  width: 80px;
+  transition: 1s;
 }

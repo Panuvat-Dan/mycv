@@ -1,117 +1,209 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head style="background-color: #476072">
+<head>
   <meta charset="utf-8">
-  <title>♥ Panuvat World ♥</title>
+  <title>Panuvat Professional Website </title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">">
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="circle-cropped.png" alt="Panuvat profile picture"></td>
-      <td>
-        <h1>Panuvat Danvorapong</h1>
-        <p><em>This is <strong>Sam</strong> professional profile</em></p>
-        <br>
-        <br>
-        <p>A data person who is working at not too big not to small start-up company in
-          a field of Business intelligent >>> Morning coffee makes me energetic all day long </p>
-        <hr>
-      </td>
-    </tr>
-  </table>
+  <!-- User picture -->
+  <section id = "header">
+    <div class="container text-center">
+      <div class="user-box">
+        <img src="circle-cropped.png" width="280" height="280">
+        <h1>Panuvat-Danvorapong</h1>
+        <p>Technologies Employee </p>
+      </div>
+    </div>
+  </section>
 
+  <!-- About me -->
+  <section id = "user-info">
+    <div class="nav-bar">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="css/navbar.jpg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#capstone">CAPSTONE PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#contact">CONTACT ME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div> 
+  <br>
+            <!-- About me -->
+    <div class="about container id="about">
+    <div class="row">
+    <div class="col-md-6 text-center">
+    <img src="profile2.jpg" width="500" height="600">
+    </div>
+    <div class="col-md-6">
+    <h3>WHO AM I ?</h3> <br>
+    <p>
+      Hey fellows!, My name is Sam and it is great to know you.I love technologies including data architecture,data streaming and management,web application,mobile applications and so on.
+      To be honest,I also think how computer can learn from label&unlabeled data resulted in technologies disruption. Thus, let make the product and a new innovation together.
+    </p>
+    <h4>EDUCATION</h4> <br>
+    <ul>
+      <li><a href="https://www.eng.ku.ac.th/">Link</a>Bachelor aerospace degree on Faculty of Engineering Kasetsart
+        university</li> 
+      <li><a href="https://www.rmit.edu.au/">Link</a>Bachelor aerospace degree on Faculty of Engineering Royal Melbourne
+        Institute university</li> 
+      <li><a href="https://www.cp.eng.chula.ac.th/future/bachelor">Link</a>Master computer science degree on Faculty of
+        Engineering Chulalongkorn university</li> 
+      </ul>
+        <br>
+    <h4>PROFESSIONAL EXPERIENCE</h4> <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2021-Now</td>
+          <td>Business Intelligent Analyst @ Acommerce</td>
+        </tr>
+        <tr>
+          <td>2019-2020</td>
+          <td>Data Analyst @ Carro</td>
+        </tr>
+        <tr>
+          <td>2018-2019</td>
+          <td>Business development @ Toyota Motor Thailand</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    <hr>
 
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.eng.ku.ac.th/">Link</a>Bachelor aerospace degree on Faculty of Engineering Kasetsart
-      university</li>
-    <li><a href="https://www.rmit.edu.au/">Link</a>Bachelor aerospace degree on Faculty of Engineering Royal Melbourne
-      Institute university</li>
-    <li><a href="https://www.cp.eng.chula.ac.th/future/bachelor">Link</a>Master computer science degree on Faculty of
-      Engineering Chulalongkorn university</li>
+  <!-- Capstone project -->
+<div class="capstone">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6">
+  <h3 class="text-center">Data analytic & Visualization</h3>
+  <ul class="timeline">
+    <li>
+      <h4>Data Analytic on RDBMS</h4>
+      <b>Investigate a relational database with SQL/BI tool on Fifa dataset.</b>
+      <b>Using SQL language to do CRUD operation and  explore a database.</b>
+      <b>A visualization to showcase the output of the queries by BI-tool.</b> <br>
+      <b><a href="https://github.com/Panuvat-Dan/Investigate-a-dataset">Visit repo here!</a></b> 
+    </li>
+    <li>
+      <h4>Deploy Supervised learning with multiple classifier selector on cloud service</h4>
+      <b>Apply multiple mahcine learning models classifier.</b>
+      <b>Streamlit&Pandas framework to visualize and manipulate dataset.</b>
+      <b>Deploy web application by Heroku cloud service.</b> <br>
+      <b><a href="https://oztrobotics.herokuapp.com/">Visit web application here!</a></b> 
+    </li>
+    <li>
+      <h4> Scraping finance data  from Yahoo finance and Visualizae on web application</h4>
+      <b>YahooFinance provide the data.</b>
+      <b>Using python to scrap the data and pandas and matplotlib to visualize.</b>
+      <b>Deploy web application by Heroku cloud service.</b> <br>
+      <b><a href="https://stockapz.herokuapp.com/">Visit web application here!</a></b> 
+    </li>
+    <li>
+      <h4>Building interactive dashboard with multi-dimension matric on Tableau service (BI-report)</h4>
+      <b>Create multi-dimension/multi-measures on dataset</b>
+      <b>Leveraging the data into insgiht.</b>
+      <b>A visualization to showcase the output of the queries by BI-tool.</b> <br>
+      <b><a href="https://public.tableau.com/app/profile/panuvat.danvorapong/viz/Saleperformancedigitaldetergent/Presentation">Visit web application here!</a></b> 
+    </li>
   </ul>
-  <hr>
-  <a href="hobbies.html">My personal interests</a>
+  </div>
 
-  <h3>Professional Working Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2021-Now</td>
-        <td>Business Intelligent Analyst @ Acommerce</td>
-      </tr>
-      <tr>
-        <td>2019-2020</td>
-        <td>Data Analyst @ Carro</td>
-      </tr>
-      <tr>
-        <td>2018-2019</td>
-        <td>Business development @ Toyota Motor Thailand</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h4>Skill</h4>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Data Analytic</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Machine learning & Deep learning foundation and application</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Cloud and Distributed computing</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Machine learning fundamental</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Web development</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Web scrapping</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Maths statistic and probaility</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Database</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-      </td>
-    </tr>
-  </table>
+  <div class="col-md-6">
+    <h3 class="text-center">SQL/NOSQL and Web development</h3>
+    <ul class="timeline">
+      <li>
+        <h4>Data modeling&build ETL on Postgres</h4>
+        <b>Design dimension and fact table</b>
+        <b>Extract multiple datas from csv files.</b>
+        <b>Create script and Transform by pandas and load into a new csv file.</b> <br>
+        <b><a href="https://github.com/Panuvat-Dan/Project-Data-Modeling-ETL-with-Postgres">Visit repo here!</a></b> 
+      </li>
+      <li>
+        <h4>Data Modeling with Apache Cassandra NOSQL</h4>
+        <b>Creating tables in Apache Cassandra to run queries.</b>
+        <b>Transfers data from a set of CSV files within a directory to create a streamlined CSV file to model.</b>
+        <b>Insert data into Apache Cassandra tables.</b> <br>
+        <b><a href="https://github.com/Panuvat-Dan/Project-Data-Modeling-ETL-with-Postgres">Visit repo here!</a></b> 
+      </li>
+      <li>
+        <h4>Applying Convolutional Neuron Network on image classification</h4>
+        <b>Classify image of food and no-food by Kaggle dataset.</b>
+        <b>Using Deep learning framework as Tensorflow&Keras to create neural net</b>
+        <b>Appling  Convolutional neural network to model and make a prediction.</b> <br>
+        <b><a href="https://github.com/Panuvat-Dan/Machine_learning_chula_class">Visit repo here!</a></b> 
+      </li>
+      <li>
+        <h4>Creating a portfolio website deployed on github</h4>
+        <b>HTML to create strcutre</b>
+        <b>Decorate by CSS/Bootstrap.</b>
+        <b>Live on github.io</b> <br>
+        <b><a href="https://panuvat-dan.github.io/mycv/Index.html">Visit web application here!</a></b> 
+      </li>
+    </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+ 
+   <!-- Contact me -->
+<div class="contact" id="contact">
+<div class="container text-center">
+<h1>Contact me</h1>
+<p class="text-center">Thanks for coming to my webpage</p>
+<div class="row">
+<div class="col-md-4">
+<i class="fa fa-phone"></i>
+<p>++66 95-739-0898</p>
+</div>
+<div class="col-md-4">
+  <i class="fa fa-internet-explorer"></i>
+  <p>https://panuvat-dan.github.io/mycv/Index.html</p>
+</div>
+  <div class="col-md-4">
+  <i class="fa fa-envelope"></i>
+  <p>samdovon@gmail.com</p>
+</div>
+</div>
+<button type="button" class="btn btn-primary"><i class="fa fa-download">Resume</i></button>
+<button type="button" class="btn btn-primary"><i class="fa fa-rocket">Hire me</i></button>
+</div> 
+</div>
+<!-- Contact me -->
+<div class="social-icons">
+<ul>
+  <a href="https://www.linkedin.com/in/panuvat-danvorapong-1a29091b6/"><img src="css/Linkedin-Logo.png" width="80" height="90"></a>
+  <a href="https://github.com/Panuvat-Dan"><li><i class="fa fa-github"><img src="css/git.png" height="90" width="80"></a>
+</ul>
+</div>
 
-
-  </table>
-
-  <h5>Contact me</h5>
-
-  <li><a href="https://www.linkedin.com/in/panuvat-danvorapong-1a29091b6/">Link</a>Linkedin Panuvat</li>
-  <li><a href="https://github.com/Panuvat-Dan">Link</a>Github Panuvat</li>
 
 </body>
 
