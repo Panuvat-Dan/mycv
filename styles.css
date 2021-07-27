@@ -123,7 +123,7 @@ body {
 .contact .btn
 {
   padding: 10px;
-  font-size: 40px;
+  font-size: 30px;
 }
 .social-icons
 {
@@ -150,6 +150,29 @@ width: 80px;
 .social-icons img:hover
 {
   padding-left: 30px;
+  width: 80px;
+  transition: 1s;
+}
+.resume
+{
+  padding: 10px 25px 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  border:2px solid rgb(0, 0, 0);
+  background:transparent;
+}
+.resume:focus
+{
+  box-shadow: none !important;
+}
+.resume a
+{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.resume a:hover
+{
+  padding-inline-start: 100px;
   width: 80px;
   transition: 1s;
 }
